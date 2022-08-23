@@ -3,7 +3,7 @@ package com.bl.customExceptions;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class MoodAnalyserTest {
     //analysing the mood for sad
@@ -17,8 +17,12 @@ class MoodAnalyserTest {
     @Test
     public void analyseHappyMood(){
         MoodAnalyser moodAnalyser = new MoodAnalyser();
-        String mood = moodAnalyser.analyseMood("I'm in Any Mood");
+        String mood = moodAnalyser.analyseMood("I'm in Happy Mood");
         Assertions.assertEquals(mood, "HAPPY");
     }
+
+
+
+
 
 }
