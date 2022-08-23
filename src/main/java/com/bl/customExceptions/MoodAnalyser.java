@@ -2,19 +2,14 @@ package com.bl.customExceptions;
 
 public class MoodAnalyser {
 
+    public String analyseMood(String message) throws NullMoodAnalyseException {
 
-    public String analyseMood(){
+        if (message.contains("Null")) {
 
-            return "SAD";
+            throw new NullMoodAnalyseException("Invalid mood");
+        }
 
-    }
-
-    public String analyseMood(String message){
-       if(message.contains("Sad"))
-           return "SAD";
-       else
         return "HAPPY";
     }
-
 
 }

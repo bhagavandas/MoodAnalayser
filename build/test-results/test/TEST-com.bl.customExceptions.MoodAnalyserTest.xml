@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.customExceptions.MoodAnalyserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-23T12:53:15" hostname="LAPTOP-PG23OKAD" time="0.022">
+<testsuite name="com.bl.customExceptions.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-23T13:26:47" hostname="LAPTOP-PG23OKAD" time="0.017">
   <properties/>
-  <testcase name="analyseSadMood()" classname="com.bl.customExceptions.MoodAnalyserTest" time="0.02"/>
-  <testcase name="analyseHappyMood()" classname="com.bl.customExceptions.MoodAnalyserTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testmoodAnalyseException()" classname="com.bl.customExceptions.MoodAnalyserTest" time="0.017"/>
+  <system-out><![CDATA[Invalid mood
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
